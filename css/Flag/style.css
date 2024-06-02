@@ -1,0 +1,30 @@
+.top, .bottom{
+    background-color: rgb(183, 25, 25);
+    width: 300px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle{
+    background-color: rgb(22, 4, 142);
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
