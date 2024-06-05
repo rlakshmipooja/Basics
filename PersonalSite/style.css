@@ -1,0 +1,111 @@
+body {
+  background-color: white;
+  height: 100vh;
+  margin: 0;
+}
+
+.header {
+  margin: 0 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+  height: 50px;
+}
+
+.outer {
+  border: 2px dotted black;
+  border-radius: 100%;
+  display: flex;
+  height: 20px;
+  width: 20px;
+}
+
+.inner {
+  border: 1px solid black;
+  border-radius: 100%;
+  height: 10px;
+  margin: auto;
+  width: 10px;
+}
+
+.icon {
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: 900;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerRight {
+  display: flex;
+  gap: 10px;
+}
+
+.tab {
+  cursor: pointer;
+}
+
+.content {
+  margin: 20px;
+  height: calc(100% - 150px);
+  overflow: auto;
+}
+
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+.photoContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.myPhoto1 {
+  height: 500px;
+}
+
+.myPhoto2 {
+  height: 500px;
+}
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experienceButton {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin: 20px auto;
+  box-shadow: none;
+  border: none;
+  height: 40px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.footer {
+  height: 50px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: end;
+}
+
+.socialIcon {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+}
+
+.wip {
+  margin: auto;
+  text-align: center;
+}
