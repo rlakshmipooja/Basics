@@ -62,7 +62,7 @@ body {
 
 .photoContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .myPhoto1 {
