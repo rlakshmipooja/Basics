@@ -109,3 +109,28 @@ body {
   margin: auto;
   text-align: center;
 }
+
+/*  */
+
+.column {
+  width: 200px;
+}
+
+.experienceColumn {
+  width: 400px;
+}
+
+.colData {
+  text-align: center;
+}
+
+.experienceData {
+  font-size: 12px;
+  text-align: justify;
+}
+
+.row {
+  background-color: black;
+  color: white;
+  height: 30px;
+}
