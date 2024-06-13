@@ -1,10 +1,10 @@
-function bmiCalculator(weight, height) {
+function calculateBMI(weight, height) {
   //   return weight / (height * height);
   return Math.round(weight / Math.pow(height, 2));
 }
 
 // console.log(bmiCalculator(55, 1.59));
-let bmi = bmiCalculator(55, 1.59);
+let bmi = calculateBMI(55, 1.59);
 
 if (bmi < 18.5) {
   console.log("Under weight");

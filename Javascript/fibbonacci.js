@@ -1,7 +1,6 @@
 function fibb(n) {
   let output = [];
-  if (n === 0) {
-  } else if (n === 1) {
+  if (n === 1) {
     output = [0];
   } else if (n === 2) {
     output = [0, 1];
