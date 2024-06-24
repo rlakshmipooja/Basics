@@ -1,0 +1,13 @@
+Commands
+
+mkdir Folder name -> create folder
+ls -> list
+cd -> change directory
+cd .. -> Move back one step of the folder
+touch filename.ext -> create a filename
+open filename.ext / start filename.ext -> opens the file
+rm filename.ext -> remove the filename
+pwd -> print working directory
+rm * -> remove all the files
+clear -> clear terminal
+rm -r folder -> delete the folder or directory
